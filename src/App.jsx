@@ -12,9 +12,6 @@ import Register from './pages/register'
 import Dashboard from './pages/dashboard'
 import EditProfile from './pages/editprofile'
 import {useContext,createContext} from 'react'
-import { renderRoutes } from 'react-router-config'
-import routes from 'virtual:generated-pages-react'
-
 
 
 const CollectContext = createContext();
