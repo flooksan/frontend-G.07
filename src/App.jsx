@@ -4,13 +4,13 @@ import React, { useEffect } from 'react';
 import NavBar from '../NavBar/NavBar'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 //page
-import AddActivity from '../../pages/AddActivity.page'
-import Login from '../../pages/Login.page'
-import EditActivity from '../../pages/EditActivity.page'
-import Profile from '../../pages/Profile.page'
-import Register from '../../pages/register.page'
-import Dashboard from '../../pages/Dashboard.page'
-import EditProfile from '../../pages/EditProfile.page'
+import AddActivity from './pages/addactivity'
+import Login from './pages/login'
+import EditActivity from './pages/editactivity'
+import Profile from './pages/profile'
+import Register from './pages/register'
+import Dashboard from './pages/dashboard'
+import EditProfile from './pages/editprofile'
 import {useContext,createContext} from 'react'
 import { renderRoutes } from 'react-router-config'
 import routes from 'virtual:generated-pages-react'
@@ -25,7 +25,7 @@ function App() {
   const RouteNaja = () => (
           <Router>
             <NavBar/>
-            {/* <Routes>
+            <Routes>
                 <Route path="/" element={localStorage.token ? <Dashboard /> : <Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/dashboard" element={localStorage.token ? <Dashboard /> : null} />
@@ -33,8 +33,7 @@ function App() {
                 <Route path="/editActivity/:id" element={localStorage.token ? <EditActivity /> : null} />
                 <Route path="/editProfile" element={localStorage.token ? <EditProfile /> : null} />
                 <Route path="/profile" element={localStorage.token ? <Profile /> : null} />
-            </Routes> */}
-                {renderRoutes(routes)}
+            </Routes>
           </Router>             
   )
 
