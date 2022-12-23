@@ -27,10 +27,12 @@
     "react-image-file-resizer": "^0.4.8",
     "react-material-ui-form-validator": "^3.0.1",
     "react-redux": "^8.0.5",
+    "react-router-config": "^5.1.1",
     "react-router-dom": "^6.4.3",
     "redux-devtools-extension": "^2.13.9",
     "styled-components": "^5.3.6",
-    "sweetalert2": "^11.6.15"
+    "sweetalert2": "^11.6.15",
+    "vite-plugin-pages": "^0.28.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
