@@ -1,0 +1,68 @@
+*{
+  margin:0;
+}
+.boxs{
+  display: flex;
+}
+label{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.f-button{
+  /* margin: 5px; */
+}
+
+.f-button button{
+  margin:5px;
+}
+
+
+.f-input{
+  flex-direction: column;
+
+}
+
+.f-input input{
+  /* background: #FEF6ED; */
+}
+
+
+
+.form-register {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  min-height: 100vh;
+  flex-direction: column;
+  width:60%;
+  display: grid;
+  /* margin-top: -20px; */
+  /* margin-bottom:-15px; */
+}
+
+.form-register-image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column-reverse;
+  width:40%;
+}
+
+input{
+    margin-top: 150px;
+}
+
+img{
+  margin:5px;
+}
+
+.f-input .MuiInputBase-root {
+  border-radius: 25px !important;
+  width:255px;
+  height:50px;
+  box-shadow: 0px 2px
+}
+

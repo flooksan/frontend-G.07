@@ -1,0 +1,63 @@
+*{
+  margin:0;
+}
+.boxs{
+  display: flex;
+}
+label{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.f-button{
+  /* margin: 5px; */
+}
+
+.f-button button{
+  margin:5px;
+}
+
+
+.f-input{
+  margin:5px;
+  flex-direction: column;
+
+}
+
+.f-input input{
+  background: #FEF6ED;
+  /* margin:3px; */
+}
+
+
+
+.form-register {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  min-height: 100vh;
+  flex-direction: column;
+  width:60%;
+  /* display: grid; */
+}
+
+.form-register-image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  width:40%;
+}
+
+input{
+    margin-top: 150px;
+}
+
+.img{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}

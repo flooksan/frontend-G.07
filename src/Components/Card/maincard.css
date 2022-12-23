@@ -1,0 +1,29 @@
+.success {
+    background-image: linear-gradient(to right top, #e5d9b6, #dcd3a9, #d1ce9d, #c5c992, #b8c487, #a6b97c, #94ae71, #82a367, #6a8f59, #537b4b, #3d673d, #285430);
+}
+
+.btn-exit {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}
+
+.zoomOut {
+    transition: transform 0.5s; /* Animation */
+}
+
+.zoomOut:hover {
+    transform: scale(1.1) ;
+    box-shadow: 0 10px 3px rgba(100, 99, 99, 0.009),
+    0 5px 30px rgba(0, 0, 0, 0.247);
+}
+
+.ml {
+    margin-left:10px;
+}
+
+.activity-name {
+    font-size:18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(23, 22, 22, 0.779);
+}

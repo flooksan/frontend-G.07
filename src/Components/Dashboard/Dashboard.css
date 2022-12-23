@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.gray {
+    color: gray;
+}
+
+.green {
+    color: rgb(63, 157, 17);
+}
+
+.yellow {
+    color: rgb(228, 224, 16);
+}
+
+.red {
+    color: red;
+}
+
+.display-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: 100%;
+    height: 100%;
+    padding-top:40px;
+      
+}
+
+.display-card span{
+    font-size:25px;
+}
+
+.summary-header {
+    font-weight: 500;
+    font-size:26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(23, 22, 22, 0.779);
+}
+
+.profile-name {
+    color: rgba(212, 77, 4, 0.779);
+}
+
+.display-card h2{
+    font-size:30px;
+    margin: 10px;
+}
+
+.profile-picture {
+    width: 100%;
+    
+}
+
+.picture-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin-bottom:20px;
+}
+
+.graph {
+    width: 65%;
+    margin: 10px 0;
+    display: flex;
+    justify-content:center;
+}
+
+.activity-container {
+    display: flex;
+    margin: 20px 0 20px 40px; 
+    width: 85%;
+}
+
+.activity {
+    width: 50%;
+}
+
+.activity span {
+    margin-right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.activity p {
+    color: rgb(98, 97, 97);
+    font-size:20px;
+}
+
+.display-card img:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 98vw;
+    /* height: 100vh; */
+    display: flex;
+}
+
+.left {    
+    width: 72%;
+    text-align: center;
+    /* background: wheat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-top {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    padding: 0 20px 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:30px;
+    /* background-color: #97DECE; */
+}
+
+.left-top span {
+    font-weight: 500;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(31, 28, 27, 0.724);
+}
+
+.addActivity{
+    background-color: #50A5B1;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    height:40px;
+    color: white;
+    font-weight: bold;
+}
+
+.addActivity:hover {
+    z-index: 1;
+    border-color: transparent;
+    background: linear-gradient(
+        90deg,
+        #f9d923,
+        #00a19d,
+        #0c87b7,
+        #cb49ff,
+        #ff6666,
+        #f9d923
+    );
+    background-size: 400%;
+    box-shadow: 0 0 15px rgba(2, 4, 24, 0.204);
+    animation: glow 12s linear forwards;
+    transform: scale(1.1) ;
+}
+
+@keyframes glow {
+
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 400%;
+    }
+
+}
+
+ button:hover{
+   cursor: pointer;
+}
+
+.left-bottom {
+    width: 100%;
+    padding:20px;
+    display: flex;
+    /* background-color: #FFDCA9; */
+    
+}
+
+.left-bottom-background {
+    background-color: rgba(208, 195, 186, 0.079);
+    width: 100%;
+    min-height: 650px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.334) ;
+
+}
+
+.grid-container {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.right {
+    width: 28%;
+    height: 100vh;
+    justify-content: center;
+    /* background: #FAF8F1; */
+    position: fixed;
+    right: 0;
+}
+
+.box {
+    width: 80%;
+}
+
+
+
