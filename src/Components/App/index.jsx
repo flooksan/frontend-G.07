@@ -4,13 +4,13 @@ import React, { useEffect } from 'react';
 import NavBar from '../NavBar/NavBar'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 //page
-import AddActivity from '../../pages/AddActivity'
-import Login from '../../pages/Login'
-import EditActivity from '../../pages/EditActivity'
-import Profile from '../../pages/Profile'
-import Register from '../../pages/register'
-import Dashboard from '../../pages/Dashboard'
-import EditProfile from '../../pages/EditProfile'
+import AddActivity from '../../pages/AddActivity.page'
+import Login from '../../pages/Login.page'
+import EditActivity from '../../pages/EditActivity.page'
+import Profile from '../../pages/Profile.page'
+import Register from '../../pages/register.page'
+import Dashboard from '../../pages/Dashboard.page'
+import EditProfile from '../../pages/EditProfile.page'
 import {useContext,createContext} from 'react'
 
 
