@@ -15,11 +15,11 @@ import MenuItem from '@mui/material/MenuItem';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate, Navigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 //page
-import AddActivity from '../../Pages/AddActivity'
-import Login from '../../Pages/Login'
-import EditActivity from '../../Pages/EditActivity'
-import Profile from '../../Pages/Profile'
-import Register from '../../Pages/register'
+import AddActivity from '../../pages/AddActivity'
+import Login from '../../pages/Login'
+import EditActivity from '../../pages/EditActivity'
+import Profile from '../../pages/Profile'
+import Register from '../../pages/register'
 
 import Logo from '../../assets/icon-app.png';
 
